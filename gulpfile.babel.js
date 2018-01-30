@@ -7,7 +7,6 @@ import cssmin from 'gulp-cssnano';
 import babel from 'gulp-babel';
 import jsmin from 'gulp-uglify';
 import rename from 'gulp-rename';
-// import imagemin from 'gulp-image';
 // Browser Sync (Live reload)
 import browserSync from 'browser-sync';
 const server = browserSync.create();

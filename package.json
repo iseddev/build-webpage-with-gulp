@@ -1,13 +1,13 @@
 {
   "name": "new_project",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Template for new basic websites using GULP for its building",
+  "main": "gulpfile.babel.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "samare Web Studio",
   "license": "ISC",
   "devDependencies": {
     "babel-core": "^6.26.0",
