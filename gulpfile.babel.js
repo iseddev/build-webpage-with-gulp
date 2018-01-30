@@ -86,10 +86,3 @@ gulp.task('default', ['pug', 'styles', 'scripts'], () => {
   // Watching changes on html files
   // gulp.watch('./app/**/*.html').on('change', server.reload);
 });
-
-// Optimizing images (this is an independent task)
-// gulp.task('imgmin', () =>
-//   gulp.src(paths.images.src)
-//     .pipe(imagemin())
-//     .pipe(gulp.dest(paths.images.dest))
-// );
