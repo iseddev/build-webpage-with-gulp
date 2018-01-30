@@ -1,0 +1,11 @@
+{
+  "name": "samareboilerplate",
+  "version": "1.0.0",
+  "description": "Template for building a basic web site with Gulp",
+  "main": "gulpfile.babel.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Israel E. Porfirio Moreno (by samare Web Studio)",
+  "license": "UNLICENSED"
+}
