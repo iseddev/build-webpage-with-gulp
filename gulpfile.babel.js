@@ -62,7 +62,7 @@ gulp.task('styles', () =>
     .pipe(server.stream({match : '**/*.css' }))
 );
 
-gulp.task('scrips', () =>
+gulp.task('scripts', () =>
   gulp.src(paths.scripts.src)
     .pipe(babel())
     .pipe(jsmin())
@@ -78,7 +78,7 @@ gulp.task('default', ['pug', 'styles', 'scripts'], () => {
     }
   });
 
-  gulp.watch(paths.styles.look, ['styles']);
-  gulp.watch(paths.pug.look, ['pug', server.reload]);
-  gulp.watch(paths.scripts.look, ['scripts', server.reload])
+  gulp.watch(paths.styles.watch, ['styles']);
+  gulp.watch(paths.pug.watch, ['pug', server.reload]);
+  gulp.watch(paths.scripts.watch, ['scripts', server.reload])
 });
