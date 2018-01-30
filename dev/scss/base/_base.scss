@@ -1,0 +1,51 @@
+/* ========== Basic resets ========== */
+html {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  text-size-adjust: 100%;
+  background-color: $bg-color;
+  color: $dark-text;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: sans-serif;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+img { max-width: 100%; height: auto; }
+
+a { text-decoration: none; background-color: transparent;}
+
+a:active, a:hover { outline: 0; }
+
+ol, ul { list-style: none; }
+
+b, strong, optgroup { font-weight: bold; }
+
+a, abbr, b, code, dfn, em, i, li, mark, p, pre, strong { font-size: inherit; }
+
+sub, sup { font-size: 12px; font-size: .75rem; line-height: 0; position: relative; vertical-align: baseline; }
+
+sup { top: -8px; top: -.5rem; }
+
+sub { bottom: -4px; bottom: -.25rem; }
+
+article, aside, details, figcaption, figure, footer, header, main, menu, nav, section, summary { display: block; }
+
+audio, canvas, img, iframe, picture, progress, svg, video { display: inline-block; vertical-align: baseline; width: 100%; max-width: 100%; height: auto; border: 0; }
+
+table { border-collapse: collapse; }
+
+table, td, th { border: thin solid grey; }
+
+h1, h2, h3, h4, h5, h6 {
+  text-transform: uppercase;
+}
+/* ========== End basic resets ========== */
