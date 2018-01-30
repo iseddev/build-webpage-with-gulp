@@ -1,0 +1,1 @@
+## Esta es una plantilla para el desarrollo de un sitio web básico, utilizando GULP  como un automatizador de trabajo
