@@ -14,21 +14,21 @@ const server = browserSync.create();
 
 const paths = {
   pug: {
-    src: './dev/pug/pages/**/*.pug',
+    src: './dev/pug/*.pug',
     dest: './app',
-    look: './dev/pug/**/*.pug'
+    watch: './dev/pug/**/*.pug'
   },
 
   styles: {
     src: './dev/scss/*.scss',
     dest: './app/styles',
-    look: './dev/scss/**/*.scss'
+    watch: './dev/scss/**/*.scss'
   },
 
   scripts: {
     src: './dev/scripts/*.js',
     dest: './app/js',
-    look: './dev/scripts/**/*.js'
+    watch: './dev/scripts/**/*.js'
   },
 
   images: {
@@ -78,11 +78,11 @@ gulp.task('default', ['pug', 'styles', 'scripts'], () => {
     server: './app'
   });
   // Watching changes on pug files, run the necesary task and reload the server
-  gulp.watch(paths.pug.look, ['pug', server.reload]);
+  gulp.watch(paths.pug.watch, ['pug', server.reload]);
   // Watching changes on scss files
-  gulp.watch(paths.styles.look, ['styles']);
+  gulp.watch(paths.styles.watch, ['styles']);
   // Watching changes on SASS files, run the necesary task and reload the server
-  gulp.watch(paths.scripts.look, ['scripts', server.reload]);
+  gulp.watch(paths.scripts.watch, ['scripts', server.reload]);
   // Watching changes on html files
   // gulp.watch('./app/**/*.html').on('change', server.reload);
 });
