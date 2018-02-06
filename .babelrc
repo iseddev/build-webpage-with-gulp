@@ -1,5 +1,11 @@
 {
+<<<<<<< HEAD
     "presets" : [
         "es2015"
     ]
+=======
+  "presets": [
+    "es2015"
+  ]
+>>>>>>> 3ad3f667f0e178ba7c2b27091618f99ddbe1ef8e
 }

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* ========== Basic resets ========== */
 html {
   -webkit-box-sizing: border-box;
@@ -94,3 +95,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* ========== End basic resets ========== */
+=======
+html{ box-sizing:border-box; }
+
+*{ margin:0; padding:0; }
+
+/*# sourceMappingURL=main.css.map */
+>>>>>>> 3ad3f667f0e178ba7c2b27091618f99ddbe1ef8e
