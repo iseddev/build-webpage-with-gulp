@@ -14,7 +14,7 @@ const server = browserSync.create();
 
 const paths = {
   pug: {
-    src: './dev/pug/*.pug',
+    src: './dev/pug/pages/**/*.pug',
     dest: './app',
     look: './dev/pug/**/*.pug'
   },
