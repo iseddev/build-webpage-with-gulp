@@ -1,0 +1,6 @@
+/* Sample of use CSS style sheet (imported and added from index.js to our project) */
+
+.icon:hover, .lang-image:hover {
+	filter: none;
+	transform: scale(1.16);
+}

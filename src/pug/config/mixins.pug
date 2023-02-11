@@ -1,0 +1,9 @@
+mixin langIcon(href, iconTitle)
+	.flex-item.xs-25.md-10
+		a(href=href rel="noopener noreferrer" target="_blank")
+			.icon(title="Sitio oficial de " + iconTitle)&attributes(attributes)
+
+mixin langImage(href, src, imgAlt, imgTitle)
+	.flex-item.xs-25.md-10
+		a(href=href rel="noopener noreferrer" target="_blank")
+			img.lang-image(src=src, alt=imgAlt, title="Sitio oficial de " + imgTitle)
