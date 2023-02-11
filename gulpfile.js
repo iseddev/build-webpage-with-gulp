@@ -145,7 +145,9 @@ function watchTask(cb) {
 // exports.compileCSS = compileCSS
 // exports.compileSCSS = compileSCSS
 // exports.compileJS = compileJS
-// exports.optimizeImg = optimizeImg
+
+// Uncomment and run this task before run the defaul gulp task
+exports.optimizeImg = optimizeImg
 
 exports.default = series(
 	parallel(compilePUG, compileCSS, compileSCSS, compileJS),
